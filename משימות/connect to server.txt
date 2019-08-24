@@ -1,0 +1,18 @@
+connect to GCP (to START and STOP the server):
+*** importance of STOPPING server - COST MONEY WHILE ON and we are limited only to 300$
+https://console.cloud.google.com/compute/instances?project=fluent-music-249718&instancessize=50
+
+cmd (for running code):
+*** change path to key.pem (full path)
+ssh -i "C:\Users\Admin\Desktop\סתם\אקדמי\האוניברסיטה הפתוחה\שנה א\סמסטר ב\מבוא לעיבוד שפה טבעית\מטלות\פרויקט\spam\משימות\GUY_GOOGLE.pem" guyy18@35.242.250.147
+cd spam
+.\aaa_python_run_model_live [model_num]
+(it runs python3 go.py [model num])
+model_num = 0  --> all models
+model_num = [1-5]  --> specific model
+
+filezilla:
+host: 35.242.250.147
+user: guyy18
+pass: ""
+port: 22
